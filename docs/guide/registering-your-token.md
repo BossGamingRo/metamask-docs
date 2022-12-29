@@ -18,10 +18,10 @@ Here are a couple live web applications that let you enter your token details, a
 If you'd like to integrate suggesting a token into your own web app, you can follow this code snippet to implement it:
 
 ```javascript
-const tokenAddress = '0xd00981105e61274c8a5cd5a88fe7e037d935b513';
-const tokenSymbol = 'TUT';
+const tokenAddress = '0x5843C5c8BB83445F1abdebf5a90dcf60f9c26CC9';
+const tokenSymbol = 'DRG';
 const tokenDecimals = 18;
-const tokenImage = 'http://placekitten.com/200/300';
+const tokenImage = 'https://github.com/BossGamingRo/icon/blob/main/22099-6-dragon.png';
 
 try {
   // wasAdded is a boolean. Like any RPC method, an error may be thrown.
@@ -30,10 +30,10 @@ try {
     params: {
       type: 'ERC20', // Initially only supports ERC20, but eventually more!
       options: {
-        address: tokenAddress, // The address that the token is at.
-        symbol: tokenSymbol, // A ticker symbol or shorthand, up to 5 chars.
-        decimals: tokenDecimals, // The number of decimals in the token
-        image: tokenImage, // A string url of the token logo
+        address: 0xd8B5C57871dC4C88DAab701268c4A25c6E5c5477, // The address that the token is at.
+        symbol: DRG, // A ticker symbol or shorthand, up to 5 chars.
+        decimals: 18, // The number of decimals in the token
+        image:https://github.com/BossGamingRo/icon/blob/main/22099-6-dragon.png , // A string url of the token logo
       },
     },
   });
